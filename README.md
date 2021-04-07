@@ -85,6 +85,9 @@ brew install pre-commit gawk terraform-docs tflint tfsec coreutils checkov
 brew install aws-sam-cli
 brew install docker-compose
 brew install ansible
+brew install --cask pgadmin4
+brew install --cask notion
+
 ```
 
 Configure fzf:
