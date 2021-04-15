@@ -33,6 +33,7 @@ brew install docker-compose
 brew install ansible
 brew install --cask pgadmin4
 brew install --cask notion
+brew install --cask oracle-jdk
 
 /usr/local/opt/fzf/install
 source ~/.zshrc
