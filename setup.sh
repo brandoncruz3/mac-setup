@@ -46,6 +46,7 @@ brew install --cask miro
 brew install --cask obs
 brew install code-server
 brew install --cask insomnia
+brew install --cask 1password
 
 source ~/.zshrc
 
