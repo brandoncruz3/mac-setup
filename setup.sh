@@ -18,6 +18,7 @@ brew install --appdir="/Applications" wget
 brew install --appdir="/Applications" kubernetes-cli
 brew install --appdir="/Applications" docker
 
+brew install helm
 brew install node
 brew install openconnect
 brew install oath-toolkit
