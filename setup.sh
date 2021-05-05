@@ -48,6 +48,7 @@ brew install --cask obs
 brew install code-server
 brew install --cask insomnia
 brew install --cask 1password
+brew install --cask stretchly
 
 source ~/.zshrc
 
