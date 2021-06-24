@@ -49,6 +49,15 @@ brew install code-server
 brew install --cask insomnia
 brew install --cask 1password
 brew install --cask stretchly
+brew install speedtest
+brew install speedtest-cli
+brew install terragrunt
+brew install zsh-syntax-highlighting
+brew install httpie
+brew install htop
+brew install tree
+brew install lnav
+
 
 source ~/.zshrc
 
