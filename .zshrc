@@ -71,7 +71,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-alias-finder 
+alias-finder
 asdf
 aws
 brew
@@ -91,6 +91,8 @@ rsync
 terraform
 vscode
 zsh_reload
+zsh-syntax-highlighting
+zsh-autosuggestions
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -122,3 +124,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH=~/mct/operations/bin:$PATH
 
+export PROD=https://www.medicare.gov/api/v1/data/plan-compare
+export IMP=https://imp.medicare.gov/api/v1/data/plan-compare
+export TEST=https://test.medicare.gov/api/v1/data/plan-compare
+export LOCAL=http://localhost:8080
+export IMP_HPMS=https://imp-api.mct.backends.cms.gov/hpms
