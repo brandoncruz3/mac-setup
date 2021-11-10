@@ -57,6 +57,11 @@ brew install httpie
 brew install htop
 brew install tree
 brew install lnav
+brew install tfenv
+brew install pulumi
+brew install gatsby-cli
+brew install obsidian
+brew install doitlive
 
 
 source ~/.zshrc
