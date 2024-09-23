@@ -53,6 +53,7 @@ brew install speedtest
 brew install speedtest-cli
 brew install terragrunt
 brew install zsh-syntax-highlighting
+brew install zsh-autosuggestions
 brew install httpie
 brew install htop
 brew install tree
@@ -62,9 +63,16 @@ brew install pulumi
 brew install gatsby-cli
 brew install obsidian
 brew install doitlive
+brew install ldcli
+brew install grafana
+brew install colordiff
+brew install --cask cheatsheet
+brew install chatgpt
+brew install 1password-cli
+brew install --cask background-music
+brew install termshot
 
-
-source ~/.zshrc
+exec zsh
 
 brew tap homebrew/cask-fonts
 brew install --cask font-jetbrains-mono
@@ -73,7 +81,7 @@ echo "JetBrain Mono -> Regular -> 12"
 
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes ~/Downloads/iTerm2-Color-Schemes && cd Downloads/iTerm2-Color-Schemes && tools/import-scheme.sh schemes/*
 echo "iTerm -> Preferences -> Profiles -> Colors -> Color Presets, Import:"
-echo "~/Downloads/iTerm2-Color-Schemes/schemes/Argonaut.itermcolors" 
+echo "~/Downloads/iTerm2-Color-Schemes/schemes/Argonaut.itermcolors"
 
 # get zsh config
 curl --silent https://raw.githubusercontent.com/brandoncruz3/mac-setup/master/.zshrc --output ~/.zshrc
